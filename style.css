@@ -1,0 +1,504 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* outline: 0;
+    box-sizing: border-box; */
+    background: #0f0f10;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    margin: 0 15vw;
+}
+
+nav
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav img
+{
+    height: 25px;
+    width: 25px;
+}
+
+nav ul li
+{
+    padding: 8px 23px; 
+    font-weight: bold;
+}
+
+nav button
+{
+    font-size: 15px;
+    border-radius: 8px;
+    background: #1e1e21;
+    padding: 5px 25px;
+}
+
+main
+{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+
+.a
+{
+    margin-top: -270px;
+    margin-left: 27px;
+    width: 275px;
+}
+
+.c
+{
+    margin-left: 210px;
+    width: 340px;
+}
+
+h2
+{
+    font-size: 50px;
+    margin-left: 135px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+h4
+{
+    font-weight: 600;
+    margin-left: 135px;
+    margin-top: 25px;
+}
+
+.b p
+{
+    font-weight: 100;
+    margin-left: 135px;
+    font-size: small;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.d
+{
+    display: flex;
+    background:  #1e1e21;    
+    margin-top: 25px;
+    border-radius: 8px;
+    width: 210px;
+    height: 45px;
+    margin-left: 135px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.d1
+{
+    height: 20px;
+    background-color: transparent;
+}
+
+.x
+{
+    font-weight: 100;
+    font-size: small;
+    background-color: transparent;
+}
+
+.y
+{
+    background-color: transparent;
+}
+
+.social
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.social img
+{
+    object-fit: contain;
+}
+
+.specs
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.f
+{
+    margin-top: 10px;
+}
+
+.f div
+{
+    margin: 23px;
+    margin-right: 400px;
+}
+
+.f div:first-child,
+.f div:last-child
+{
+    margin-left: 85px;
+}
+
+.f div:last-child p:last-child
+{
+    width: 100px;
+}
+
+.f div p:last-child
+{
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.f div p
+{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.r
+{
+    margin-top: -310px;
+    margin-left: 270px;
+    height: 280px;
+}
+
+.case
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-top: 140px;
+}
+
+.case-item
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 62px;
+}
+
+.u
+{
+    height: 350px;
+    width: fit-content;
+}
+
+.case-item div
+{
+    width: 20%;
+}
+
+ .case-item div p:first-child
+{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;    
+    margin-bottom: 26px;
+}
+
+.p
+{
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.p img
+{
+    height: 20px;
+    background-color: transparent;
+}
+
+.p span
+{
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.buy
+{
+    margin-top: 120px;
+}
+
+.t
+{
+    height: 310px;
+    width: 855px;
+    border-radius: 12px;
+    background-color: #181a1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.t div
+{
+    width: 20%;
+}
+
+.t h3,
+.t div p,
+.t div,
+.t2
+{
+   background-color: transparent;
+}
+
+.t h3
+{
+    font-size: medium;
+}
+
+.t div p
+{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #bdc0c2;
+}
+
+.t div div
+{
+    background-color: #000000;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.w
+{
+    height: 20px;
+    margin-right: 8px;
+}
+
+.t div div p
+{
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 4px;
+}
+
+.product
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    /* margin: 0 150px; */
+}
+
+.product-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 56px;
+    margin-top: 100px;
+    padding-left: 193px;
+    /* height: fit-content;
+    width: fit-content; */
+}
+
+.items
+{
+    background-color: #181a1b;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.prod-img
+{
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+}
+
+.product-items img
+{
+    background-color: transparent;
+}
+
+
+.product-items p,
+.product-items span,
+.product-items div
+{
+    background-color:#181a1b;
+} 
+
+.info
+{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+.info p
+{
+    font-size: 12px;
+}
+  
+.info p span 
+{
+    color: #bdc0c2;
+}
+  
+.info div
+{
+    background-color:#000000;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+
+.info div img
+{
+    height: 13px;
+    width: 13px;    
+}
+
+footer
+{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.h
+{
+    top: -38px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: -77px;
+}
+
+footer ul li a
+{
+    font-size: 12px;
+    color: #bdc0c2;
+}
+
+footer ul li:first-child a
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+footer ul li:first-child
+{
+    margin-bottom: 12px;
+}
+
+.k 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    right: -70px;
+    position: relative;
+}
+
+.k div:first-child
+{
+    border-radius: 8px;
+    display: flex;
+    padding: 5px 6px;
+    background-color: #181a1b;
+}
+
+.k div:first-child input
+{
+    border: none;
+    background-color: transparent;
+}
+
+.m
+{
+    display: flex;
+    align-items: center;
+    background-color: #0A0A0B;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 10px 12px;
+}
+
+.m p
+{
+    font-size: 12px;
+}
+
+.k div:last-child img
+{
+    margin-right: 25px;
+}
+
+.arrow
+{
+    position: absolute;
+    right: -150px;
+    top: 5px;
+}
+
+.dq
+{
+    margin-top: 100px;
+}
